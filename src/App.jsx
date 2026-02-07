@@ -4,6 +4,7 @@ import HeroCarousel from "./components/HeroCarousel";
 import Memories from "./pages/Memories";
 import FutureFamily from "./pages/FutureFamily";
 import Contact from "./pages/Contact";
+import Engagement from "./pages/Engagement";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HeroCarousel />} />
+        <Route path="/engagement" element={<Engagement />} />
         <Route path="/memories" element={<Memories />} />
         <Route path="/family" element={<FutureFamily />} />
         <Route path="/contact" element={<Contact />} />

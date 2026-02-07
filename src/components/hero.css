@@ -1,7 +1,7 @@
 .carousel-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.65); /* transparent layer */
+  background: rgba(0, 0, 0, 0.75); /* transparent layer */
   display: flex;
   align-items: center;
   justify-content: center;

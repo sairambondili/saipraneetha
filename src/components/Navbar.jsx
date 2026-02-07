@@ -10,6 +10,7 @@ export default function Navbar() {
         </button>
         <div id="nav" className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
+            <li className="nav-item"><Link className="nav-link" to="/engagement">Engagement</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/memories">Memories</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/family">Future Family</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>

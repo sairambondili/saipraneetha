@@ -2,9 +2,9 @@ import Countdown from "./Countdown";
 import "./hero.css"
 
 const slides = [
-  { img: "1", interval: 2000 }, // 2 sec
-  { img: "2", interval: 5000 }, // 5 sec
-  { img: "3", interval: 8000 }, // 8 sec
+  { img: "1", interval: 3000 }, // 2 sec
+  { img: "2", interval: 3000 }, // 5 sec
+  { img: "3", interval: 3000 }, // 8 sec
 ];
 
 export default function HeroCarousel() {
@@ -23,7 +23,7 @@ export default function HeroCarousel() {
             data-bs-interval={slide.interval}
           >
             <img
-              src={`/images/eng${slide.img}.jpg`}
+              src={`/images/carousel/car${slide.img}.JPG`}
               className="d-block w-100 vh-100 object-fit-cover"
               alt="Engagement"
             />
