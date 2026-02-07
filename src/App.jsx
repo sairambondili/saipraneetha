@@ -15,7 +15,7 @@ function App() {
         <Route path="/engagement" element={<Engagement />} />
         <Route path="/memories" element={<Memories />} />
         <Route path="/family" element={<FutureFamily />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </BrowserRouter>
   );
