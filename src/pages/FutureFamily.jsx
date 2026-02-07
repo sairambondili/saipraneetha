@@ -4,7 +4,7 @@ export default function FutureFamily() {
       <h2 className="text-center mb-4">Future Family 👨‍👩‍👧</h2>
       <div className="row g-4 justify-content-center">
         {[...Array(4)].map((_, i) => (
-          <div className="col-md-3 col-6" key={i}>
+          <div className="col-md-6 col-12" key={i}>
             <img src={`/images/fam/fam${i+1}.jpeg`} className="img-fluid rounded shadow" />
           </div>
         ))}
